@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "baseUrl": "./",
+    "declaration": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "lib": ["ES5"],
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "build",
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es2021",
+    "moduleResolution": "node",
+    "typeRoots": ["node_modules/@types"],
+
+    "emitDeclarationOnly": true,
+    "isolatedModules": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/**/*.ts"]
+}
